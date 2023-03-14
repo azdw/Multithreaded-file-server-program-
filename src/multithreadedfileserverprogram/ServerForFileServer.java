@@ -94,11 +94,13 @@ class ClientHandler implements Runnable {
                     sendList(file, outgoing);
                 }
             }
+            outgoing.println("__LIST_COMPLETE__"); // add a special message at the end of the list
             outgoing.flush();
         } catch (Exception e) {
             System.out.println(e);
         }
     }
+    
     
     
 
