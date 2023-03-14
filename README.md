@@ -19,4 +19,4 @@ To view the list of available files, type "list" in the client console and press
 To download a file, type "get filename" (replace "filename" with the name of the file) and press enter. The downloaded file will be saved in the same folder as the client program.
 To quit the program, type "quit" and press enter.
 Credits
-This program was created by OpenAI and modified by [Your Name].
+This program was created by Abdulaziz Aldultli As an Assignment For Course CS435.
